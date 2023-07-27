@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bardjur/nodejs-hw.git"
+  },
+  "author": "B.O.B.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bardjur/nodejs-hw/issues"
+  },
+  "homepage": "https://github.com/Bardjur/nodejs-hw#readme",
+  "devDependencies": {
+    "commander": "^11.0.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "nanoid": "^3.3.4"
+  }
+}
